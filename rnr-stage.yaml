@@ -1,6 +1,5 @@
 yaml_version: 1
-stage: fetch
-
+stage: system
 modules:
   flopr:       {source_files: [Resettable_FF/rtl.sv]}
   flopenr:     {source_files: [Resettable_En_FF/rtl.sv]}
@@ -18,3 +17,4 @@ modules:
   riscvsingle: {source_files: [RISCV_Wrapper/rtl.sv]}
   dmem:        {source_files: [DMEM/rtl.sv]}
   top:         {source_files: [Top/rtl.sv]}
+
