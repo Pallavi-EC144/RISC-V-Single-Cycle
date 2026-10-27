@@ -45,3 +45,5 @@ The diagram below shows how the modules connect to form the single-cycle process
 ## Submission Workflow
 
 Submit your repository URL for this checkpoint through the course Google Form. The assignment handout explains how to configure and verify your repository.
+# RISC-V-Single-Cycle
+A single-cycle RISC-V processor implemented in SystemVerilog, supporting core RV32I instructions. This project covers processor datapath design, instruction fetch and decode, control logic, ALU operations, register and memory interfaces, and integration. The implementation is developed and tested incrementally using the RISC-n-Roll CI framework.
